@@ -1,0 +1,11 @@
+id,product_name,url,category,price,availability,rating,reviews_count,sku,retrieved_at
+1,CVS Health Ibuprofen 200mg,https://www.cvs.com/p/001,Pain Relief,5.49,In Stock,4.7,234,CVS-IBU-200,2025-12-10
+2,CVS Vitamin C 1000mg,https://www.cvs.com/p/002,Vitamins,12.99,In Stock,4.8,189,CVS-VITC-1000,2025-12-10
+3,CVS Hydrating Face Wipes,https://www.cvs.com/p/003,Personal Care,6.29,Out of Stock,4.4,57,CVS-FACEW-01,2025-12-10
+4,CVS Allergy Relief 24HR,https://www.cvs.com/p/004,Allergy,21.49,In Stock,4.6,301,CVS-ALGY-24,2025-12-10
+5,CVS Daily Probiotic,https://www.cvs.com/p/005,Supplements,18.99,In Stock,4.5,142,CVS-PROBIO-01,2025-12-10
+6,CVS First Aid Kit,https://www.cvs.com/p/006,Health,15.79,In Stock,4.3,81,CVS-FAID-12,2025-12-10
+7,CVS Melatonin 5mg,https://www.cvs.com/p/007,Sleep Aid,9.49,Low Stock,4.7,225,CVS-MEL-05,2025-12-10
+8,CVS Antibacterial Hand Soap,https://www.cvs.com/p/008,Personal Care,3.99,In Stock,4.2,66,CVS-SOAP-AB,2025-12-10
+9,CVS Cold & Flu Relief,https://www.cvs.com/p/009,Cold & Flu,13.79,In Stock,4.5,117,CVS-CFLU-01,2025-12-10
+10,CVS Sunscreen SPF 50,https://www.cvs.com/p/010,Skincare,11.29,In Stock,4.4,94,CVS-SUN-50,2025-12-10
