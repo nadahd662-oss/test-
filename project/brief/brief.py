@@ -2,14 +2,14 @@
 # 1️ IMPORT LIBRARIES
 # ============================================
 
-import pandas as pd
 import numpy as np
+import pandas as pd
+
 
 # ============================================
 # 2️ LOAD THE DATA (INGESTION)
 # ============================================
 
-#file_path = r"C:\Users\ADMIN\Desktop\python\project\SAS\brief\store.csv"
 df = pd.read_csv("store.csv")
 
 print("First 5 rows:")
@@ -79,6 +79,7 @@ lower_bound = Q1 - 1.5 * IQR
 upper_bound = Q3 + 1.5 * IQR
 
 outliers = df[(df["sales"] < lower_bound) | (df["sales"] > upper_bound)]
+print(outliers.shape)
 
 print("\n===== OUTLIERS DETECTED (SALES) =====")
 print("Number of outliers:", outliers.shape[0])
@@ -86,7 +87,6 @@ print("Number of outliers:", outliers.shape[0])
 
 # flag them instead of removing
 df["is_sales_outlier"] = np.where((df["sales"] < lower_bound) | (df["sales"] > upper_bound),1,0)
-
 
 # ============================================
 # 5️ KPIs FOR COMMERCIAL DIRECTOR

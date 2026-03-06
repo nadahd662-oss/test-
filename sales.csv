@@ -1,0 +1,9 @@
+date,produit,categorie,prix_unitaire,quantite
+2026-02-09,Produit A,Informatique,120,2
+2026-02-09,Produit B,Accessoires,15,10
+2026-02-10,Produit A,Informatique,120,1
+2026-02-10,Produit C,Bureautique,45,4
+2026-02-11,Produit B,Accessoires,15,5
+2026-02-12,Produit C,Bureautique,45,2
+2026-02-13,Produit A,Informatique,120,3
+2026-02-13,Produit A,Informatique,120,3
